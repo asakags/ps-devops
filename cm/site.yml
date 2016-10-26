@@ -1,0 +1,12 @@
+---
+- name: Setup Docker
+  hosts: all
+  roles:
+    - angstwad.docker_ubuntu
+  become: Yes
+
+- name: Setup NPM
+  hosts: all
+  tasks:
+   - apt: name=npm
+     become: Yes
