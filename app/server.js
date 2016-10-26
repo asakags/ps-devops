@@ -6,7 +6,7 @@ module.exports = app;
 app.get('/', function (req, res) {
 
   res.send({
-    version1: '1.0.0'
+    server: 'wolf'
   });
 });
 

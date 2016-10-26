@@ -2,7 +2,6 @@
 
 
 var assert = require('assert');
-//var describe = require('mocha');
 var request = require('supertest');
 var app = require('../server');
 
