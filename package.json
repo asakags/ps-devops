@@ -8,6 +8,6 @@
     "mocha": "latest"
   },
   "scripts": {
-    "test": "nodejs ./node_modules/.bin/mocha app/test"
+    "test": "node ./node_modules/.bin/mocha app/test"
   }
 }
