@@ -2,7 +2,6 @@
   "name": "my-app",
   "version": "0.0.1",
   "dependencies": {
-    "nodejs": "latest",
     "express": "latest",
     "supertest": "latest",
     "mocha": "latest"

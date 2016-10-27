@@ -5,8 +5,13 @@
     - angstwad.docker_ubuntu
   become: Yes
 
-- name: Setup NPM
+- name: Setup NodeJS
   hosts: all
   tasks:
-   - apt: name=npm
-     become: Yes
+    - name: download nodejs
+      shell: curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash -
+    - apt: name=nodejs
+      become: yes
+    # - name: symbolic links
+    #   shell: ln -s /usr/bin/nodejs /usr/bin/node
+    #   become: yes

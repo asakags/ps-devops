@@ -7,4 +7,4 @@ install:
 test:
 	npm test
 start:
-	nodejs app/server.js
+	node app/server.js
