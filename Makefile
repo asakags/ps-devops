@@ -5,6 +5,6 @@ build:
 install:
 	npm install
 test:
-	nodejs ./node_modules/.bin/mocha app/test
+	npm test
 start:
 	nodejs app/server.js

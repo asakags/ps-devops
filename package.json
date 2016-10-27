@@ -6,5 +6,8 @@
     "express": "latest",
     "supertest": "latest",
     "mocha": "latest"
+  },
+  "scripts": {
+    "test": "nodejs ./node_modules/.bin/mocha app/test"
   }
 }
